@@ -1,0 +1,24 @@
+{
+  "name": "Nur – Habits, Deen & Fokus",
+  "short_name": "Nur",
+  "description": "Habits, Gebetszeiten, Kalender und Deep-Work-Fokus. 100 % offline.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "de",
+  "categories": ["productivity", "lifestyle", "education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Fokus 25 min", "url": "./?focus=25" },
+    { "name": "Deen", "url": "./?tab=deen" },
+    { "name": "Kalender", "url": "./?tab=calendar" }
+  ]
+}
